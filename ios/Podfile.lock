@@ -491,6 +491,8 @@ PODS:
     - React-Core
   - RNBootSplash (5.0.4):
     - React-Core
+  - RNCPicker (2.5.1):
+    - React-Core
   - RNGestureHandler (2.13.3):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
@@ -568,6 +570,7 @@ DEPENDENCIES:
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - ReactNativeAvoidSoftinput (from `../node_modules/react-native-avoid-softinput`)
   - RNBootSplash (from `../node_modules/react-native-bootsplash`)
+  - "RNCPicker (from `../node_modules/@react-native-picker/picker`)"
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
@@ -673,6 +676,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-avoid-softinput"
   RNBootSplash:
     :path: "../node_modules/react-native-bootsplash"
+  RNCPicker:
+    :path: "../node_modules/@react-native-picker/picker"
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
   RNScreens:
@@ -734,6 +739,7 @@ SPEC CHECKSUMS:
   ReactCommon: dd03c17275c200496f346af93a7b94c53f3093a4
   ReactNativeAvoidSoftinput: a096aae8faf85c0f3225c2179bccdab00b8b6354
   RNBootSplash: 334668c563e44287ca39d03aa3f738a3c35a74a6
+  RNCPicker: 529d564911e93598cc399b56cc0769ce3675f8c8
   RNGestureHandler: fa40ab6b6cafaa7609294d31f8e8fbbd0cce8ea6
   RNScreens: 2a28f2973f4d0d4623e18629ebfc2c4adaceb39a
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17

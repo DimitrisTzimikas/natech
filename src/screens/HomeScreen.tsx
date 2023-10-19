@@ -12,6 +12,10 @@ const HomeScreen = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Home Screen</Text>
+      <Button
+        title="Next screen"
+        onPress={() => navigation.navigate('Third')}
+      />
       <Button title="Logout" onPress={handleLogout} />
     </View>
   );

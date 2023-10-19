@@ -14,6 +14,8 @@ const LoginScreen = () => {
     return () => {
       AvoidSoftInput.setEnabled(false);
       AvoidSoftInput.setShouldMimicIOSBehavior(false);
+      setUsername('');
+      setPassword('');
     };
   }, []);
 

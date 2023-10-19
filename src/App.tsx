@@ -1,4 +1,5 @@
 import * as React from 'react';
+import {View} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import BootSplash from 'react-native-bootsplash';
@@ -19,7 +20,11 @@ function App() {
       }}>
       <Stack.Navigator initialRouteName="Login">
         <Stack.Screen name="Login" component={LoginScreen} />
-        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen
+          name="Home"
+          component={HomeScreen}
+          options={{headerLeft: () => <View />}}
+        />
         <Stack.Screen name="Third" component={ThirdScreen} />
       </Stack.Navigator>
     </NavigationContainer>
